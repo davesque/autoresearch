@@ -124,6 +124,7 @@ You should actively consult recent ML research to source experiment ideas. This 
 1. Use web search to find recent papers from venues like ICML, NeurIPS, ICLR, and arXiv on topics relevant to your current line of experimentation (e.g. "efficient transformer training", "learning rate schedules small LLMs", "muon optimizer improvements").
 2. When you find a promising paper, fetch its abstract and key results. If the full paper is available as a web page (e.g. on arXiv HTML or OpenReview), read the methodology section for implementation details.
 3. Extract the **specific, actionable idea** — a concrete hyperparameter, architectural modification, or training trick — and translate it into a modification of `train.py`.
+4. Save your notes on each paper to the `literature/` directory. Use one file per paper, named by arXiv ID or a short slug (e.g. `literature/2405.20233-grokfast.md`). Include the title, authors, venue, key findings, and how they might apply to this setup. This builds a persistent knowledge base across runs.
 
 **Rules:**
 - Do NOT spend more than ~2 minutes on any single literature search. You are an experimentalist, not a literature reviewer. Get the idea, try it, move on.
